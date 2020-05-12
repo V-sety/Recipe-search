@@ -1,0 +1,60 @@
+$mainColor: rgb(38, 221, 145);
+.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $mainColor;
+}
+.navbar li {
+  font-size: 20px;
+  font-weight: bold;
+
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  list-style-type: none;
+}
+.enterElem {
+  height: 100px;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+}
+.searchbtn {
+  text-decoration: none;
+  background-color: $mainColor;
+  padding: 10px 10px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 2px;
+  text-align: center;
+  margin: 10px;
+}
+.searchField {
+  appearance: none;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.image {
+  width: 30%;
+  align-self: flex-start;
+  margin-left: 15px;
+}
+.step {
+  text-align: left;
+  margin: 13px;
+  font-size: 20px;
+  list-style: none;
+}
+.steps {
+  width: 60%;
+  display: inline-block;
+}
+.recCont {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
